@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+.page-heading-green {
+    border: 1px solid black;
+    width: 50%;
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: lightgreen;
+}
+
+.page-heading-home {
+    border: 1px solid black;
+    width: 50%;
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color:cornflowerblue;
+    padding: 7px
+
+}
+
+.page-heading-meat {
+        border: 1px solid black;
+        width: 50%;
+        display: block;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color:lightcoral;
+
+    }
+
+    .page-heading-sweet {
+        border: 1px solid black;
+        width: 50%;
+        display: block;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color:lightsalmon;
+    }
+
+h3 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 10px
+    
+}
+
+ul {
+    margin:0;
+    padding:0;
+}
+
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+  
+}
+
+ol li {
+    padding-bottom: 1.5rem;
+    text-decoration: none;
+    max-width: 75%;
+    margin:0 auto;
+}
+
+a {
+    color: black;
+}
+
+
+.recipe-heading {
+   border: 1px solid black;
+   margin: 10px
+}
+
+figcaption {
+    font-style: italic;
+    font-weight: 800;
+}
+
+.tips {
+    list-style-type: none;
+}
+
+.tipbox {
+    background-color: rgb(247, 217, 180);
+    width: 100%;
+    padding: 10px
+}
+
+.ingredients {
+    background-color:blanchedalmond;
+    padding: 10px;
+}
+
+.instructions {
+    
+}
+
+.footer {
+    padding: 20px;
+}
