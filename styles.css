@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+body, html, .maingrid {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
     align-items: center;
@@ -19,6 +25,7 @@ body {
     margin-bottom: 10px;
     margin-top: 10px;
     background-color: lightgreen;
+    padding: 10px;
 }
 
 .page-heading-home {
@@ -30,7 +37,8 @@ body {
     margin-bottom: 10px;
     margin-top: 10px;
     background-color:cornflowerblue;
-    padding: 7px
+    padding: 10px;
+    font-size: 2rem;
 
 }
 
@@ -43,6 +51,7 @@ body {
         margin-bottom: 10px;
         margin-top: 10px;
         background-color:lightcoral;
+        padding: 10px;
 
     }
 
@@ -55,6 +64,7 @@ body {
         margin-bottom: 10px;
         margin-top: 10px;
         background-color:lightsalmon;
+        padding: 10px;
     }
 
 h3 {
@@ -73,6 +83,8 @@ ul {
 ul li {
     list-style: none;
     text-decoration: none;
+    margin-bottom: 50px;
+    margin-top: 30px;
   
 }
 
@@ -98,6 +110,10 @@ figcaption {
     font-weight: 800;
 }
 
+.maincap {
+    font-style:normal
+}
+
 .tips {
     list-style-type: none;
 }
@@ -119,4 +135,23 @@ figcaption {
 
 .footer {
     padding: 20px;
+}
+
+.mainimg {
+    height: 200px
+}
+
+.mainli {
+    width: auto;
+    list-style: none;
+    height: auto;
+    padding-top: 30px
+    
+}
+
+.maingrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 100%;
+    padding-top: 30px
 }
